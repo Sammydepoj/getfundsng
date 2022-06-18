@@ -31,7 +31,7 @@ header h1{
     color: #179774;
     font-family: 'roboto', cursive;
     font-size: 7em;
-    -webkit-text-stroke: 2px #fff;
+    -webkit-text-stroke: 1px #fff;
     
     line-height: 1em;
     text-align: left;
@@ -147,6 +147,27 @@ form label .asterisk {
     color: #179774;
     font-size: 0.5em;
     vertical-align: super;
+}
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+    background-color: #179774;
+    padding: 1rem;
+    display:flex;
+    /* place-items: center; */
+}
+footer p{
+    width: 30%;
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
 @keyframes response {
