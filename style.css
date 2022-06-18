@@ -31,6 +31,7 @@ header h1{
     color: #179774;
     font-family: 'roboto', cursive;
     font-size: 7em;
+    -webkit-text-stroke: 2px #fff;
     
     line-height: 1em;
     text-align: left;
