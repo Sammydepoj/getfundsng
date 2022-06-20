@@ -2,6 +2,7 @@
 
 body{
     font-family: 'open sans';
+    max-width: 100%;
 }
 *{
     margin: 0;
@@ -205,6 +206,7 @@ border-radius: 1.5rem;
 }
 .imgdiv img{
     margin: 2rem 4rem 0rem 4rem;
+    max-width: 90%;
 }
 .connect-faq{
     display: flex;
@@ -337,5 +339,195 @@ font-weight: bolder;
 li{
     list-style: none;
     text-align: left;
+}
+
+@media (max-width: 768px){
+    body{
+        max-width: 100%;
+    }
+    .logonav{
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+.fund-raising-section-and-picture{
+    flex-direction: column;
+}
+.fund-raising-section-img img{
+    max-width: 90%;
+    margin-top: 1rem;
+}
+.section1{
+    flex-direction: column;
+    align-items: center;
+}
+.users{
+    flex-direction: column;
+}
+.user-img img{
+    max-width: 95%;
+}
+.usertext{
+    width: 90%;
+    margin: 0rem;
+}
+.usertext h4{
+    max-width: 75%;
+    text-align: center;
+    margin: 0rem;
+}
+.users2{
+    flex-direction: column;
+}
+.user-2-text{
+    width: 90%;
+}
+.users-2-text h4{
+    max-width: 80%;
+    text-align: center;
+    margin: 0rem;
+}
+.user-2-image{
+    max-width: 95%;
+    text-align: center;
+}
+.user-2-image img{
+    max-width: 90%;
+}
+
+.testimonial{
+    font-size: 1rem;
+    width: 100%;
+}
+.testimonial-cards{
+    flex-direction: column;
+    
+}
+.imgdiv img{
+    max-width: 90%;
+}
+.connect-faq{
+    flex-direction: column;
+}
+.connect{
+    width: 90%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.faq{
+    width: 90%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.yourdreams{
+    width: 80%;margin: 0rem;
+}
+.blog{
+    flex-direction: column;
+    align-items: center;
+}
+.get-in-touch{
+    max-width: 95%;
+}
+footer{
+    flex-direction: column;
+}
+
+
+}
+
+
+
+@media (max-width: 410px){
+    body{
+        max-width: 100%;
+    }
+
+    .logonav{
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+.fund-raising-section-and-picture{
+    flex-direction: column;
+}
+.fund-raising-section-img img{
+    max-width: 90%;
+    margin-top: 1rem;
+}
+.section1{
+    flex-direction: column;
+    align-items: center;
+}
+.users{
+    flex-direction: column;
+}
+.user-img img{
+    max-width: 95%;
+}
+.usertext{
+    width: 100%;
+}
+.usertext h4{
+    max-width: 85%;
+    text-align: center;
+    margin: 0rem;
+}
+.users2{
+    flex-direction: column;
+}
+.user-2-text{
+    width: 100%;
+}
+.users-2-text h4{
+    max-width: 85%;
+    text-align: center;
+    margin: 0rem;
+}
+.user-2-image img{
+    max-width: 95%;
+}
+
+.testimonial{
+    font-size: 2rem;
+}
+.testimonial-cards{
+    flex-direction: column;
+}
+.imgdiv img{
+    max-width: 90%;
+}
+.connect-faq{
+    flex-direction: column;
+}
+.connect{
+    width: 90%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.faq{
+    width: 90%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.yourdreams{
+    width: 90%;
+}
+.blog{
+    flex-direction: column;
+    align-items: center;
+}
+
+
 }
 
