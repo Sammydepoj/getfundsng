@@ -509,6 +509,10 @@ footer{
         margin: 0rem;
         box-sizing: border-box;
     }
+    .getfund p{
+        width: 80%;
+        box-sizing: border-box;
+    }
 
     .logonav{
         flex-direction: column;
@@ -684,6 +688,7 @@ footer{
 .getfund{
     width: 100%;
 }
+
 .fundraisefor{
 width: 100%;
 }
